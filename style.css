@@ -32,8 +32,16 @@ header{
 	background: yellowgreen;
   	height: 15vh;
   	display: flex;
-  	justify-content: center;
   	align-items: center;
+}
+header .logo{
+	max-width: 300px;
+}
+header .links{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
 }
 header a {
 	margin-right: 15px;
@@ -48,6 +56,7 @@ header a {
 .active {
 	background-color: cyan;
 }
+
 #main .nav {
 	list-style: none;
 	width: 100%;
@@ -67,6 +76,19 @@ header a {
 article {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: right;
+}
+article big {
+	width: 50px;
+	height: 50px;
+}
+article p {
+	margin: 20px 5px;
+	text-align: right;
+	direction: rtl;
+
 }
 footer {
   background: #445a15;
