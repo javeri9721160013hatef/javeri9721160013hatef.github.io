@@ -1,6 +1,7 @@
 console.log(document.getElementById('header-one'));
 let headerTitle = document.getElementById('header-one');
 let header = document.getElementById('header-two');
+//sdf
 console.log(headerTitle);
 headerTitle.textContent = 'header_one -> hello hatef javeri';
 headerTitle.innerText = 'header_one -> goodbye hatef javeri';
